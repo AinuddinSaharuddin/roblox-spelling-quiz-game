@@ -39,7 +39,7 @@ local function createPart(name, size, cframe, color, material, anchored, canColl
 end
 
 -- Floor
-createpart(
+create Part(
 	"Floor",
 	Vector3.new(40, 1, 40),
 	CFrame.new(0, 0, 0),
@@ -51,7 +51,7 @@ createpart(
 )
 
 -- Back Wall
-createpart(
+create Part(
 	"BackWall",
 	Vector3.new(40, 20, 1),
 	CFrame.new(0, 10, -20),
@@ -63,7 +63,7 @@ createpart(
 )
 
 -- Front Wall Left side (leaves gap for door in centre)
-createpart(
+create Part(
 	"FrontWallLeft",
 	Vector3.new(14, 20, 1),
 	CFrame.new(-13, 10, 20),
@@ -75,7 +75,7 @@ createpart(
 )
 
 -- Front Wall Right side
-createpart(
+create Part(
 	"FrontWallRight",
 	Vector3.new(14, 20, 1),
 	CFrame.new(13, 10, 20),
@@ -87,7 +87,7 @@ createpart(
 )
 
 -- Left Wall
-createpart(
+create Part(
 	"LeftWall",
 	Vector3.new(1, 20, 40),
 	CFrame.new(-20, 10, 0),
@@ -99,7 +99,7 @@ createpart(
 )
 
 -- Right Wall
-createpart(
+create Part(
 	"RightWall",
 	Vector3.new(1, 20, 40),
 	CFrame.new(20, 10, 0),
@@ -111,7 +111,7 @@ createpart(
 )
 
 -- Quiz Door (anchored, will slide up when answer is correct)
-createpart(
+create Part(
 	"QuizDoor",
 	Vector3.new(8, 12, 1),
 	CFrame.new(0, 6, 20),
@@ -123,7 +123,7 @@ createpart(
 )
 
 -- Spawn Pad (visual marker where the player starts)
-local spawnPart = createpart(
+local spawnPart = createPart(
 	"SpawnPad",
 	Vector3.new(6, 1, 6),
 	CFrame.new(0, 1, 10),
