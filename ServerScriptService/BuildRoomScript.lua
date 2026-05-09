@@ -51,7 +51,7 @@ create Part(
 )
 
 -- Back Wall
-create Part(
+createP art(
 	"BackWall",
 	Vector3.new(40, 20, 1),
 	CFrame.new(0, 10, -20),
@@ -63,7 +63,7 @@ create Part(
 )
 
 -- Front Wall Left side (leaves gap for door in centre)
-create Part(
+createP art(
 	"FrontWallLeft",
 	Vector3.new(14, 20, 1),
 	CFrame.new(-13, 10, 20),
@@ -75,7 +75,7 @@ create Part(
 )
 
 -- Front Wall Right side
-create Part(
+createP art(
 	"FrontWallRight",
 	Vector3.new(14, 20, 1),
 	CFrame.new(13, 10, 20),
@@ -87,7 +87,7 @@ create Part(
 )
 
 -- Left Wall
-create Part(
+createP art(
 	"LeftWall",
 	Vector3.new(1, 20, 40),
 	CFrame.new(-20, 10, 0),
@@ -99,7 +99,7 @@ create Part(
 )
 
 -- Right Wall
-create Part(
+createP art(
 	"RightWall",
 	Vector3.new(1, 20, 40),
 	CFrame.new(20, 10, 0),
@@ -111,7 +111,7 @@ create Part(
 )
 
 -- Quiz Door (anchored, will slide up when answer is correct)
-create Part(
+createP art(
 	"QuizDoor",
 	Vector3.new(8, 12, 1),
 	CFrame.new(0, 6, 20),
